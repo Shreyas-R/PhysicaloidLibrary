@@ -1,16 +1,16 @@
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 dependencies {
-    compile project(':PhysicaloidLibrary')
+    implementation project(':PhysicaloidLibrary')
 }
 
 android {
-    compileSdkVersion 18
-    buildToolsVersion '18.0.1'
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
 
     defaultConfig {
         minSdkVersion 12
-        targetSdkVersion 12
+        targetSdkVersion 30
     }
 
     sourceSets {
