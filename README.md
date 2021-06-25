@@ -5,8 +5,8 @@ Android Library for communicating with physical-computing boards (e.g.Arduino, m
 
 Features
 -----------------
-- **NEW! Added support for Arduino Nano 328p (New Bootloader).**
-- **NEW! No closed source slow and buggy D2XX drivers are required.**
+- **NEW: Added support for Arduino Nano 328p (New Bootloader)**
+- No closed source slow and buggy D2XX drivers are required
 - Android Java library project
 - USB-Serial communication
 - WiFi-Serial communication to ESP8266
